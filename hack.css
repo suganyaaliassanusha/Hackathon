@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, em, img, a, footer, header,menu, nav,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+footer, header, hgroup, menu, nav,
+{
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset CSS ends here
+
+Custom CSS starts here */
+
+body{
+	background-color: #FBF5EF;
+	font-family: Arial;
+}
+div.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+h6{
+	font-family: Arial;
+	font-weight: bold;
+}
+h3{
+	color:#8A0829 ;
+}
+div.header{
+   height: 70px;
+   margin-top:10px;
+   line-height: 30px;
+}
+div.menu{
+	height: 80px;
+	width: 100%;
+	
+}
+div.menu ul{
+     height: 40;
+     padding-left: 0px;
+     margin-top: 0px;
+     background-color: #333;
+}
+div.menu li{
+	display: inline-block;
+	color: white;
+	height:20px;
+	width: 80px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+div.menu li:hover{
+	background-color:#B40431;
+}
+div.article{
+    height: 160px;
+    background-color: white;
+    border-radius: 10px;
+    padding:20px;
+
+}
+div.article-desc{
+	width: 400px;
+	line-height: 20px;
+	margin-right: 0px;
+	float: left;
+}
+p.desc p{
+	display:inline-block;
+	float: left;
+}
+div.article-desc a{
+	color:#B40431 ;
+	text-decoration: underline;
+}
+h1.article-h{
+	color:#B40431;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+h6.article-h{
+	padding-bottom: 10px;
+}
+div.article-img{
+	float: right;
+	height:100px;
+	padding:30px;
+}
+div.article-img img{
+	border: 1px solid #D8D8D8;
+	padding-top: 10px;
+}
+div.events{
+	margin-top: 30px;
+	background-color: white;
+	border-radius: 10px;
+	width: 800px;
+	height:300px;
+}
+div.title{
+	padding:10px;
+	float:left;
+	width: 190px;
+	height:70px;
+}
+p.title-p{
+	display: inline-block;
+	padding: 20px;
+}
+p.title-p a{
+	color:#B40431 ;
+	text-decoration: underline;
+
+}
+div.event-title{
+	padding: 10px;
+	width: 400px;
+	float: right;
+}
+div.event-title a{
+	color:#B40431 ;
+	text-decoration: underline;
+
+}
+p.event-title-p{
+	display: inline-block;
+	color:#B40431 ;
+}
+div.blog{
+	width: 780px;
+	padding-left: 20px;
+	padding-top: 20px;
+	height:250px;
+}
+div.blog img{
+	width:20px;
+	height: 20px;
+	float:left;
+	padding-right: 5px;
+}
+div.label{
+	float:left;
+	padding-bottom: 10px;
+}
+div.one{
+	clear:both;
+}
+div.two{
+	clear: both;
+}
+div.three{
+	clear: both;
+}
+div.four{
+	clear: both;
+}
+div.five{
+	clear: both;
+}
+div.label{
+	width: 140px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+div.blog-head-1{
+	float: left;
+	width: 300px;
+	padding-left: 20px;
+}
+p.blog-head-1-p{
+	display: inline-block;
+	color:#B40431;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.blog-head-2{
+	float:right;
+	width: 300px;
+}
+p.blog-head-2-p{
+	display: inline-block;
+	color:#B40431;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+	padding-right: 160px;
+
+}
+div.white-foot{
+	width:800px;
+	height: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+div.img-with-caption{
+    height:80px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+p.caption{
+	display:inline-block;
+	color:#B40431;
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+p.caption-2{
+	font-family: Arial;
+	display: inline-block;
+}
+div.white-foot img{
+	width:60px;
+	height:60px;
+	padding:10px;
+
+}
+div.div-after-logo{
+	float:right;
+	width:450px;
+}
+div.div-after-logo p{
+	height: 60px;
+	padding-top: 20px;
+	line-height: 20px;
+	font-family: Arial;
+}
+div.footer{
+	width: 800px;
+	height: 50px;
+}
+div.footer p{
+   display: inline-block;
+   float: right;
+   padding-top: 20px;
+}
+div.footer a{
+	color:#B40431;
+}
